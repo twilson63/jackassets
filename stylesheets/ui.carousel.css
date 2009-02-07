@@ -1,0 +1,37 @@
+/* Carousel stylesheet for jCarouselLite plugin
+----------------------------------*/
+
+.docCarousel {
+        border: 1px solid black;
+        float: left;
+        background-color: #dfdfdf;
+        padding: 10px 0px 10px 0px;
+		margin: 0px 0px 20px 10px;
+        /*0 0 20 10*/
+        /* Needed for rendering without flicker */
+        position: relative;
+        visibility: hidden;
+        left: -5000px;
+        display: block;
+    }
+    
+ .docCarousel ul  {
+ 	margin: 0;
+ }
+ 
+ .docCarousel li 
+ {
+ 	margin: 0px 0px 0px 0px;
+ 	
+    /*padding: 0px 10px 0px 10px;*/
+ }
+ 
+  /*.docCarousel li img,
+  .docCarousel li p  
+  {
+ 	background-color: #fff;
+ 	margin: 0px 5px 0px 5px;
+ 	width: 170px;
+ 	height: 145px;
+ }*/
+    
